@@ -30,7 +30,7 @@ public class Main {
 			}
 
 			result += Math.min(Math.abs(a-tmpi), 1);
-			if(a==tmpi) {
+			if(a==tmpi) {  // 무한루프 도는 것을 방지하기 위함 (더이상 즐겨찾기를 사용할 수 없는 경우)
 				result += Math.abs(b-a);
 				a=b;
 				break;
