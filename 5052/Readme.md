@@ -25,8 +25,8 @@ String형으로 선언된 배열은 그냥 `Arrays.sort()`를 해도 문제가 �
 
 ***
 1. Arrays.sort를 하는 과정에서 오류 발생
-2. if(arr[i].charAt(j) != arr[i+1].charAt(j)) 부분에서 인덱스 에러 발생
-   arr[i+1]의 길이가 arr[i]보다 무조건 길다는 보장은 없다
-   arr[i+1]의 길이보다 arr[i]가 길다면, arr[i]는 arr[i+1]에 포함되지 않는다
-   다르게 말하면 일관성이 있다는 뜻!
+2. if(arr[i].charAt(j) != arr[i+1].charAt(j)) 부분에서 인덱스 에러 발생</br>
+   arr[i+1]의 길이가 arr[i]보다 무조건 길다는 보장은 없다</br>
+   arr[i+1]의 길이보다 arr[i]가 길다면, arr[i]는 arr[i+1]에 포함되지 않는다</br>
+   다르게 말하면 일관성이 있다는 뜻!</br>
    이럴 때는 그냥 flag=true 하고 continue
